@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #ffc9e3;
+}
+
+.kuang {
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.top {
+    padding: 10px 3%;
+    width: 94%;
+    background-color: #f588bf;
+    line-height: 1.6em;
+    font-size: 14px;
+}
+
+.top .top_bt {
+    font-weight: bold;
+    color: #9f014f;
+}
+
+.top .top_nr {
+    font-weight: normal;
+    color: #fff;
+}
+
+.nav {
+    width: 100%;
+    background-color: #ffc9e3;
+}
+
+.nav .nav_top {
+    overflow: hidden;
+}
+
+.nav .nav_top h4 {
+    float: left;
+    font-size: 14px;
+    border: 1px solid #f588bf;
+    border-radius: 5px;
+    line-height: 1.6em;
+    margin-left: 12px;
+    margin-top: 10px;
+    color: #9f014f;
+    padding: 0 15px;
+}
+
+.nav .nav_top p {
+    float: left;
+    font-size: 14px;
+    line-height: 45px;
+}
+
+.nav .nav_top p span {
+    color: #f00;
+}
+
+.xx_kuang {
+    width: 94%;
+    background-color: #fff;
+    opacity: 0.6;
+    margin: 0 3%;
+    border-radius: 8px;
+}
+
+.name {
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.name .name_wz {
+    margin-left: 5%;
+}
+
+.name .name_text {
+    width: 90%;
+    margin: 0 5%;
+    height: 30px;
+    background:rgba(245,136,191,0.5);
+}
+
+.name .sex {
+    width: 100%;
+    overflow: hidden;
+}
+
+.name .sex .sex_1 {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.name .sex .sex_1 .sex_man {
+    margin-right: 20px;
+}
+
+.name .gk {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.name .gk .gk_1 {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.name .gk .gk_1 .sex_man {
+    margin-right: 20px;
+}
+
+.sc_kuang {
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 16px;
+}
+
+.sc {
+    width: 90%;
+    background-color: #fff;
+    margin: 0px 3%;
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 1.6em;
+    padding: 0px 2%;
+    margin-top: 10px;
+}
+
+.sc .file {
+    float: left;
+    width: 84%;
+    line-height: 1.6em;
+    margin: 10px 0;
+}
+
+.sc .submit {
+    float: left;
+    width: 16%;
+    line-height: 1.6em;
+    margin-top: 10px;
+    border-radius: 3px;
+    background-color: #f588bf;
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer .tjiao {
+    width: 94%;
+    margin: 10px 3%;
+    background-color: #f588bf;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 2.5em;
+}

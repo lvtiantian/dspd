@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>会员信息</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" >
+<link href="css/hyxx_style.css?v=1111" rel="stylesheet"  type="text/css" >
+<!-- 移动设备支持 -->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+<meta content="no-cache" http-equiv="pragma">
+<meta content="0" http-equiv="expires">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- 移动设备支持 -->
+<!--移动端版本兼容 -->
+<script type="text/javascript">
+	var phoneWidth =  parseInt(window.screen.width);
+	var phoneScale = phoneWidth/640;
+	var ua = navigator.userAgent;
+	if (/Android (\d+\.\d+)/.test(ua)){
+		var version = parseFloat(RegExp.$1);
+		if(version>2.3){
+			document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+		}else{
+			document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+		}
+	} else {
+		document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+	}
+</script><meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">
+<!--移动端版本兼容 end -->
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".pjia_ly").click(function(){
+	  $(".liuyan_kuang").show();
+  });
+  $(".qxiao").click(function(){
+	  $(".liuyan_kuang").hide();
+	  });
+  
+});
+</script>
+</head>
+
+<body>
+<div class="kuang">
+	<div class="m_p1 section">
+    	<div class="txiang">
+        	<img class="tx" src="images/p2_02.png" />
+            <p class="ghtx">更换头像</p>
+            <div class="rqz">
+            	<img src="images/dz.png"/>
+            	<p>人气值：88</p>
+            </div>
+        </div>
+        <div class="nav_kuang">
+        	<div class="anniu">
+            	<p class="huiyuan">个人介绍</p>
+            </div>
+            <div class="wdziliao">
+            	<div class="nav">
+                    <div class="nav_top">
+                        <h4>基本信息</h4>
+                    </div>
+                    <div class="xx_kuang">
+                        <div class="name">
+                            <p class="name_wz">姓名:赵炎</p>
+                            <p class="name_wz">性别:男</p>
+                            <p class="name_wz">身高/体重：185cm/70kg</p>
+                            <p class="name_wz">出生年月日：1990/06/20</p>
+                            <p class="name_wz">学历:研究生</p>
+                            <p class="name_wz">工作：设计师</p>
+                        </div>
+                    </div>
+            	</div>
+            	<div class="nav">
+                    <div class="nav_top">
+                        <h4>联系方式</h4>
+                    </div>
+                	<div class="xx_kuang">
+                    	<div class="name">
+                        	<p class="name_wz">微信号：zhaoyang900620</p>
+                        	<p class="name_wz">手机号:13602024571</p>
+                    	</div>
+                	</div>
+            	</div>
+            	<div class="nav">
+                	<div class="nav_top">
+                    	<h4>其他</h4>
+                	</div>
+                	<div class="xx_kuang">
+                    	<div class="name">
+                        	<p class="name_wz">籍贯:山西太原</p>
+                        	<p class="name_wz">婚姻状况：未婚</p>
+                        	<p class="name_wz">年收入：10万</p>
+                        	<p class="name_wz">车房购买：有房有车</p>
+                        	<p class="name_wz">内心独白</p>
+                        	<div class="name_text">有时候望着地平线的方向，我在想，自己一路走来，明天又将去向哪里呢。快乐过也失落过，一个人旅途太漫长，如果你愿意，我希望能拉着你的手，一起奔跑，一起去寻找我们的幸福！
+                        	</div>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+            <div class="pjia">
+            	<p class="pjia_dz">点赞</p>
+                <p class="pjia_ly">留言</p>
+            </div>
+		</div>
+	</div>
+    <div class="liuyan_kuang" style="display:none;">
+    	<div class="liuyan_bj"></div>
+        <div class="liuyan_nr">
+        	<p class="liuyan_nr_wz">留言</p>
+            <textarea class="liuyan_nr_xx"></textarea>
+            <div class="liuyan_nr_anniu">
+            	<p class="qding">确定</p>
+                <p class="qxiao">取消</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

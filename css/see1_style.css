@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #ffc9e3;
+}
+
+.kuang {
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.m_p1 {
+    background-image: url(../images/bj_02.png);
+}
+
+.section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #ffc9e3;
+}
+
+.bgC {
+    position: absolute;
+    background-position: 50% 50%;
+    left: 50%;
+    background-repeat: no-repeat;
+}
+
+.p2_01 {
+    background-image: url(../images/p2_01.png);
+    width: 238px;
+    height: 74px;
+    left: 5%;
+    top: 30px;
+}
+
+.zwei {
+    height: 100px;
+}
+
+.jbin {
+    width: 100%;
+    overflow: hidden;
+}
+
+.people {
+    float: left;
+    width: 40%;
+    margin: 10px 5%;
+}
+
+.people .txiang {
+    border: 10px solid #e54867;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px #c49aae;
+}
+
+.people .chakan {
+    overflow: hidden;
+    background-color: #e54867;
+    height: 60px;
+    font-size: 25px;
+    width: 90%;
+    border-radius: 13px;
+    margin: 0 2%;
+    margin-top: 10px;
+    box-shadow: 2px 5px 10px #c49aae;
+}
+
+.people .chakan .dzan {
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.people .chakan .xinxi {
+    float: right;
+    color: #e54867;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.last {
+    position: absolute;
+    left: 0;
+    bottom: 25%;
+}
+
+.last1 {
+    position: absolute;
+    left: -15%;
+    bottom: 25%;
+}
+
+.xxxq {
+    width: 100%;
+}
+
+.xxxq .xxxq_bj {
+    background-color: #fff;
+    opacity: 0.8;
+    height: 280px;
+    position: absolute;
+    width: 70%;
+    border-radius: 30px;
+    z-index: 100;
+    left: 22%;
+}
+
+.xxxq .xx {
+    position: absolute;
+    z-index: 101;
+    font-size: 25px;
+    width: 64%;
+    margin: 15px 3%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 240px;
+    left: 22%;
+}
+
+.wybm {
+    width: 100%;
+}
+
+.wybm .wybm_bj {
+    width: 100%;
+}
+
+.wybm p {
+    color: #fff;
+    width: 86%;
+    margin: 10px 5%;
+    margin-top: 2%;
+    padding: 2%;
+    font-size: 25px;
+    line-height: 1.6em;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #e43488;
+    height: 40px;
+}
+
+.liuyan_kuang {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    z-index: 150;
+}
+
+.liuyan_kuang .liuyan_bj {
+    background-color: #000;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.liuyan_kuang .liuyan_nr {
+    background-color: #e85376;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 80%;
+    height: 20%;
+    opacity: 0.6;
+}
+
+.liuyan_kuang .liuyan_nr .liuyan_nr_wz {
+    font-size: 30px;
+    margin: 10px;
+    color: #fff;
+}
+
+.liuyan_kuang .liuyan_nr .liuyan_nr_xx{
+    width: 90%;
+    margin: 0 4%;
+    height: 30%;
+    border-style: none;
+    font-size: 20px;
+    color: #e85376;
+}
+.liuyan_kuang .liuyan_nr .liuyan_nr_xx option{
+    font-size: 16px;
+}
+.liuyan_kuang .liuyan_nr .liuyan_nr_anniu {
+    overflow: hidden;
+}
+
+.liuyan_kuang .liuyan_nr .liuyan_nr_anniu .qding {
+    float: left;
+    color: #fff;
+    margin-left: 65%;
+    line-height: 3em;
+    font-size: 25px;
+}
+
+.liuyan_kuang .liuyan_nr .liuyan_nr_anniu .qxiao {
+    float: left;
+    color: #fff;
+    margin-left: 10%;
+    line-height: 3em;
+    font-size: 25px;
+}
