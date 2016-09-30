@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的中心</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" >
+<link href="css/grzl_style.css?v=54a" rel="stylesheet"  type="text/css" >
+<!-- 移动设备支持 -->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+<meta content="no-cache" http-equiv="pragma">
+<meta content="0" http-equiv="expires">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- 移动设备支持 -->
+<!--移动端版本兼容 -->
+<script type="text/javascript">
+	var phoneWidth =  parseInt(window.screen.width);
+	var phoneScale = phoneWidth/640;
+	var ua = navigator.userAgent;
+	if (/Android (\d+\.\d+)/.test(ua)){
+		var version = parseFloat(RegExp.$1);
+		if(version>2.3){
+			document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+		}else{
+			document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+		}
+	} else {
+		document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+	}
+</script><meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">
+<!--移动端版本兼容 end -->
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".huiyuan").click(function(){
+	  $(".wdziliao").hide();
+	  $(".wdliuyan").hide();
+	  $(".hyziliao").show();
+	  $(".huiyuan").css("background-color","#e74f71");
+	  $(".liuyan").css("background-color","#f9d4dd");
+	  $(".ziliao").css("background-color","#f9d4dd");
+	  $(".huiyuan").css("color","#fff");
+	  $(".liuyan").css("color","#e74f71");
+	  $(".ziliao").css("color","#e74f71");
+  });
+  $(".ziliao").click(function(){
+	  $(".wdliuyan").hide();
+	  $(".hyziliao").hide();
+	  $(".wdziliao").show();
+	  $(".ziliao").css("background-color","#e74f71");
+	  $(".liuyan").css("background-color","#f9d4dd");
+	  $(".huiyuan").css("background-color","#f9d4dd");
+	  $(".ziliao").css("color","#fff");
+	  $(".liuyan").css("color","#e74f71");
+	  $(".huiyuan").css("color","#e74f71");
+	  });
+  $(".liuyan").click(function(){
+	  $(".wdziliao").hide();
+	  $(".hyziliao").hide();
+	  $(".wdliuyan").show();
+	  $(".huiyuan").css("background-color","#f9d4dd");
+	  $(".liuyan").css("background-color","#e74f71");
+	  $(".ziliao").css("background-color","#f9d4dd");
+	  $(".liuyan").css("color","#fff");
+	  $(".ziliao").css("color","#e74f71");
+	  $(".huiyuan").css("color","#e74f71");
+	  });
+  
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".hfu").click(function(){
+	  $(".liuyan_kuang").show();
+  });
+  $(".qxiao").click(function(){
+	  $(".liuyan_kuang").hide();
+	  });
+  
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".man").click(function(){
+	  $(".hx_zong1").hide();
+	  $(".hx_zong").show();
+	  $(".man").css("background-color","#e74f71");
+	  $(".woman").css("background-color","#f9d4dd");
+	  $(".man").css("color","#fff");
+	  $(".woman").css("color","#e74f71");
+  });
+  $(".woman").click(function(){
+	  $(".hx_zong").hide();
+	  $(".hx_zong1").show();
+	  $(".woman").css("background-color","#e74f71");
+	  $(".man").css("background-color","#f9d4dd");
+	  $(".woman").css("color","#fff");
+	  $(".man").css("color","#e74f71");
+  });
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".tjian_yes").click(function(){
+	  $(".fk_kuang").show();
+  });
+  $(".fk_qxiao").click(function(){
+	  $(".fk_kuang").hide();
+	  });
+  
+});
+</script>
+</head>
+
+<body>
+<div class="kuang">
+	<div class="m_p1 section">
+    	<div class="txiang">
+        	<img class="tx" src="images/p2_02.png" />
+            <p class="ghtx">更换头像</p>
+            <div class="rqz">
+            	<img src="images/dz.png"/>
+            	<p>人气值：88</p>
+            </div>
+        </div>
+        <div class="nav_kuang">
+        	<div class="anniu">
+            	<p class="huiyuan">会员资料</p>
+            	<p class="ziliao">我的资料</p>
+                <p class="liuyan">我的留言</p>
+            </div>
+            <!--会员资料start-->
+            <div class="hyziliao" >
+            	<div class="flei_sex">
+                	<p class="man">男MAN</p>
+                    <p class="woman">女WOMAN</p>
+                </div>
+                <div class="flei_px">
+                	<a href="dshc.html"><p>全部</p></a>
+                    <p class="flei_center">人气</p>
+                    <p>最新</p>
+                </div>
+                <div class="hx_zong">
+                	<div class="hx_01">
+                    	<img class="hx_01_tx" src="images/p2_02.png" />
+                        <a href="hyxx.html"><p class="hx_01_wz">查看信息</p></a>
+                    </div>
+                    <div class="hx_01">
+                    	<img class="hx_01_tx" src="images/p2_02.png" />
+                        <a href="hyxx.html"><p class="hx_01_wz">查看信息</p></a>
+                    </div>
+                    <div class="hx_01">
+                    	<img class="hx_01_tx" src="images/p2_02.png" />
+                        <a href="hyxx.html"><p class="hx_01_wz">查看信息</p></a>
+                    </div>
+                    <div class="hx_01">
+                    	<img class="hx_01_tx" src="images/p2_02.png" />
+                        <a href="hyxx.html"><p class="hx_01_wz">查看信息</p></a>
+                    </div>
+                </div>
+                <div class="hx_zong1" style="display:none;">
+                	<div class="hx_01">
+                    	<img class="hx_01_tx" src="images/p2_02.png" />
+                        <a href="hyxx.html"><p class="hx_01_wz">查看信息</p></a>
+                    </div>
+                    <div class="hx_01">
+                    	<img class="hx_01_tx" src="images/p2_02.png" />
+                        <a href="hyxx.html"><p class="hx_01_wz">查看信息</p></a>
+                    </div>
+                    <div class="hx_01">
+                    	<img class="hx_01_tx" src="images/p2_02.png" />
+                        <a href="hyxx.html"><p class="hx_01_wz">查看信息</p></a>
+                    </div>
+                </div>
+            </div>
+            <!--会员资料end-->
+            <!--我的资料start-->
+            <div class="wdziliao" style="display:none;">
+            	<div class="tjian">
+                	<p class="tjian_1">是否需要被推荐?</p>
+                    <div class="tjian_yes">是</div>
+                    <div class="tjian_no">否</div>
+                </div>
+            	<div class="nav">
+                    <div class="nav_top">
+                        <h4>基本信息</h4>
+                    </div>
+                    <div class="xx_kuang">
+                        <div class="name">
+                            <p class="name_wz">姓名:赵炎</p>
+                            <p class="name_wz">性别:男</p>
+                            <p class="name_wz">身高/体重：185cm/70kg</p>
+                            <p class="name_wz">出生年月日：1990/06/20</p>
+                            <p class="name_wz">学历:研究生</p>
+                            <p class="name_wz">工作：设计师</p>
+                        </div>
+                    </div>
+            	</div>
+            	<div class="nav">
+                    <div class="nav_top">
+                        <h4>联系方式</h4>
+                    </div>
+                	<div class="xx_kuang">
+                    	<div class="name">
+                        	<p class="name_wz">微信号：zhaoyang900620</p>
+                        	<p class="name_wz">手机号:13602024571</p>
+                    	</div>
+                	</div>
+            	</div>
+            	<div class="nav">
+                	<div class="nav_top">
+                    	<h4>其他</h4>
+                	</div>
+                	<div class="xx_kuang">
+                    	<div class="name">
+                        	<p class="name_wz">籍贯:山西太原</p>
+                        	<p class="name_wz">婚姻状况：未婚</p>
+                        	<p class="name_wz">年收入：10万</p>
+                        	<p class="name_wz">车房购买：有房有车</p>
+                        	<p class="name_wz">内心独白</p>
+                        	<div class="name_text">有时候望着地平线的方向，我在想，自己一路走来，明天又将去向哪里呢。快乐过也失落过，一个人旅途太漫长，如果你愿意，我希望能拉着你的手，一起奔跑，一起去寻找我们的幸福！
+                        	</div>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+            <!--我的资料end-->
+        	<!--我的留言start-->
+            <div class="wdliuyan" style="display:none;">
+                <div class="wdly_1">
+                	<div class="wdly_1_1">
+                        <img class="fketx" src="images/tx_ly.png" />
+                        <div class="liuyan1">
+                            <div class="fangke">
+                                <h4>谢娜XieNa</h4>
+                                <img src="images/nv.png" />
+                            </div>
+                            <p class="time">2015-12-01</p>
+                        </div>
+                    </div>
+                    <div class="fkly">
+                            <p class="lyan">你好，很高兴认识你明天一起去吃火锅吧？马栏山铜火锅。</p>
+                            <img class="hfu" src="images/hfu.png" />
+                    </div>
+                    <div class="lzhf">
+                        <p class="hfnr"><span>张艺兴：</span>好哒，明天不见不散。</p>
+                        <img class="schu" src="images/schu.png" />
+                    </div>
+               	</div>
+                <div class="wdly_1">
+                	<div class="wdly_1_1">
+                        <img class="fketx" src="images/tx_ly.png" />
+                        <div class="liuyan1">
+                            <div class="fangke">
+                                <h4>谢娜XieNa</h4>
+                                <img src="images/nv.png" />
+                            </div>
+                            <p class="time">2015-12-01</p>
+                        </div>
+                    </div>
+                    <div class="fkly">
+                            <p class="lyan">你好，很高兴认识你明天一起去吃火锅吧？马栏山铜火锅。</p>
+                            <img class="hfu" src="images/hfu.png" />
+                    </div>
+                    <div class="lzhf">
+                        <p class="hfnr"><span>张艺兴：</span>好哒，明天不见不散。</p>
+                        <img class="schu" src="images/schu.png" />
+                    </div>
+               	</div>
+            </div>
+            <!--我的留言end -->
+           
+		</div>
+        <!--评论回复start-->
+        <div class="liuyan_kuang" style="display:none;">
+    		<div class="liuyan_bj"></div>
+        	<div class="liuyan_nr">
+        		<p class="liuyan_nr_wz">回复</p>
+            	<textarea class="liuyan_nr_xx"></textarea>
+            	<div class="liuyan_nr_anniu">
+            		<p class="qding">确定</p>
+                	<p class="qxiao">取消</p>
+            	</div>
+        	</div>
+    	</div>
+        <!--评论回复end-->
+        <!--推荐付款start-->
+        <div class="fk_kuang" style="display:none;">
+    		<div class="fk_bj"></div>
+        	<div class="fk_nr">
+        		<p class="fk_nr_wz">付款</p>
+            	<select class="fk_nr_xx">
+  					<option value="">10</option>
+				</select>
+            	<div class="fk_nr_anniu">
+            		<p class="fk_qding">确定</p>
+                	<p class="fk_qxiao">取消</p>
+            	</div>
+        	</div>
+   		</div>
+        <!--推荐付款end-->
+	</div>
+</div>
+</body>
+</html>
